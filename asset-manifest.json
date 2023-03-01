@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/NIOS-website/static/css/main.514d3e3b.css",
+    "main.js": "/NIOS-website/static/js/main.982015e0.js",
+    "static/js/787.fe477ad3.chunk.js": "/NIOS-website/static/js/787.fe477ad3.chunk.js",
+    "static/media/f-2.jpg": "/NIOS-website/static/media/f-2.26b388640fc4dbcb65c2.jpg",
+    "static/media/f-3.jpg": "/NIOS-website/static/media/f-3.bc50a9e007ecaf3176e6.jpg",
+    "static/media/contact.jpg": "/NIOS-website/static/media/contact.5e5e25f39bbc582d80a1.jpg",
+    "static/media/f-1.jpg": "/NIOS-website/static/media/f-1.719458e059aeabe7967e.jpg",
+    "static/media/slider2.png": "/NIOS-website/static/media/slider2.2527e57632144e924d3f.png",
+    "static/media/slider3.png": "/NIOS-website/static/media/slider3.7da45d072d740d6f38ea.png",
+    "static/media/slider1.png": "/NIOS-website/static/media/slider1.7cc9d183b06fc8fd2c74.png",
+    "static/media/ser1.jpeg": "/NIOS-website/static/media/ser1.8963aa2249c6cbbaf1d8.jpeg",
+    "static/media/ser3.jpeg": "/NIOS-website/static/media/ser3.f9cccc47503bc1295dd2.jpeg",
+    "static/media/ser2.jpeg": "/NIOS-website/static/media/ser2.c07136d9252f64d2ed09.jpeg",
+    "static/media/s4.jpeg": "/NIOS-website/static/media/s4.3e0ce0d5bfcc8c55b207.jpeg",
+    "static/media/s1.jpeg": "/NIOS-website/static/media/s1.385498b83bacefd7e34f.jpeg",
+    "static/media/s3.jpeg": "/NIOS-website/static/media/s3.85792e1a87ae17242134.jpeg",
+    "static/media/s2.jpeg": "/NIOS-website/static/media/s2.377ca53c819e59fbf3a7.jpeg",
+    "index.html": "/NIOS-website/index.html",
+    "main.514d3e3b.css.map": "/NIOS-website/static/css/main.514d3e3b.css.map",
+    "main.982015e0.js.map": "/NIOS-website/static/js/main.982015e0.js.map",
+    "787.fe477ad3.chunk.js.map": "/NIOS-website/static/js/787.fe477ad3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.514d3e3b.css",
+    "static/js/main.982015e0.js"
+  ]
+}
