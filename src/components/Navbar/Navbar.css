@@ -1,0 +1,167 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: 0.5s;
+  background-color: orangered;
+}
+
+/* .header.bg {
+  background-color: orangered;
+} */
+
+/* .header.bg .logo i {
+  color: black;
+} */
+
+/* .header.bg nav {
+  padding: 0px 0;
+} */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .logo i {
+  font-size: 2rem;
+  color: black;
+}
+nav .logo h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  nav .menu {
+    position: absolute;
+    top: -15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    transform: translateX(200px);
+    transition: all 0.5s;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .header.bg nav {
+    padding: 10px 0;
+  }
+
+  nav .menu.open {
+    transform: translateX(0);
+  }
+
+  nav .nav-toggle {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 99;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .nav-toggle .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background-color: orangered;
+    transition: all 0.5s;
+  }
+
+  .nav-toggle .bar::before,
+  .nav-toggle .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: orangered;
+    border-radius: 2px;
+    transition: all 0.5s;
+  }
+
+  .nav-toggle .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+    right: 0;
+  }
+
+  .nav-toggle .bar::before {
+    width: 32px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle.open .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .nav-toggle.open .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+    left: 3px;
+  }
+
+  .nav-toggle.open .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+    left: 3px;
+  }
+}

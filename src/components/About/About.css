@@ -1,0 +1,20 @@
+.about {
+  background-color: orangered;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 2rem 10%;
+}
+
+.about .row h1 {
+  color: white;
+  margin: 2rem 0;
+}
+
+.about .row .ph {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.about .row p {
+  color: white;
+}
